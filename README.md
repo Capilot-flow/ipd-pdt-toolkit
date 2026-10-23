@@ -225,6 +225,8 @@ A：不同公司有差异。本库按“开发阶段 TR1~TR4”组织；概念�
 
 - 当前版本：V1.1（2026-10-23，按阶段重构目录）
 - 维护：PMO / IPD 体系建设负责人
-- 许可：MIT
+- 许可：[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ipd‑pdt‑toolkit © 2026 by Calanthe
+
+
 
 > **免责声明**：本仓库提供通用模板，不构成法律、合规、财务或行业监管建议。涉及具体法规、合同、认证时，必须由公司法务/合规/质量部门确认。
