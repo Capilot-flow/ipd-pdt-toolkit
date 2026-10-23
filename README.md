@@ -1,6 +1,6 @@
 # IPD 产品开发交付物模板库
 
-> 按 **IPD 六阶段** 分文件夹，每个阶段里直接放该阶段要用的模板、台账、检查表和 SOP。共 **278 份** 交付物正文。
+> 按 **IPD 六阶段** 进行目录结构划分，每个阶段中存放有该阶段要用的模板、台账、检查表和 SOP。共 **278 份** 交付物。
 
 ---
 
@@ -32,7 +32,7 @@ flowchart LR
 
 ---
 
-## 2. 仓库结构（按阶段划分）
+## 2. 仓库结构
 
 ```text
 ipd-product-management-templates/
@@ -52,7 +52,7 @@ ipd-product-management-templates/
 └── .github/                    # 贡献指南、PR/Issue 模板
 ```
 
-### 每个阶段文件夹长这样
+### 阶段文件夹结构
 
 ```text
 01-概念阶段-CDCP/
@@ -63,7 +63,7 @@ ipd-product-management-templates/
 └── SOP/               # 本阶段流程，如 CP-S-01-机会点识别与立项SOP.md
 ```
 
-> 文件名统一为 `编号-中文名称.md`。编号里的 `T/R/C/S` 分别代表模板/台账/Checklist/SOP。
+> 文件名统一为 `编号-中文名称.md`。编号里的 `T/R/C/S` 分别代表模板/台账Register/Checklist/SOP。
 
 ---
 
