@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="DCP 与 TR 双轨时序">
+  <rect width="1100" height="360" fill="#f7f8fb" rx="14"/>
+  <text x="30" y="38" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1c2b45">DCP / TR 双轨时序</text>
+
+  <text x="30" y="95" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14" font-weight="700" fill="#2f4b7c">商业轨</text>
+  <line x1="120" y1="90" x2="1040" y2="90" stroke="#9fb3d1" stroke-width="2"/>
+  <g font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#1c2b45">
+    <circle cx="180" cy="90" r="9" fill="#2f6fd0"/><text x="150" y="70">CDCP</text>
+    <circle cx="390" cy="90" r="9" fill="#2f6fd0"/><text x="360" y="70">PDCP</text>
+    <circle cx="620" cy="90" r="9" fill="#2f6fd0"/><text x="580" y="70">IDCP（重大变更）</text>
+    <circle cx="830" cy="90" r="9" fill="#2f6fd0"/><text x="805" y="70">ADCP</text>
+    <circle cx="990" cy="90" r="9" fill="#2f6fd0"/><text x="935" y="70">LDCP/EOL</text>
+  </g>
+
+  <text x="30" y="205" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14" font-weight="700" fill="#a15c13">技术轨</text>
+  <line x1="120" y1="200" x2="1040" y2="200" stroke="#e0b07a" stroke-width="2"/>
+  <g font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#1c2b45">
+    <circle cx="180" cy="200" r="9" fill="#d9822b"/><text x="145" y="180">Pre-TR1</text>
+    <circle cx="300" cy="200" r="9" fill="#d9822b"/><text x="270" y="180">TR1</text>
+    <circle cx="390" cy="200" r="9" fill="#d9822b"/><text x="360" y="180">TR2</text>
+    <circle cx="480" cy="200" r="9" fill="#d9822b"/><text x="450" y="180">TR3</text>
+    <circle cx="570" cy="200" r="9" fill="#d9822b"/><text x="540" y="180">TR4</text>
+    <circle cx="680" cy="200" r="9" fill="#d9822b"/><text x="650" y="180">TR5</text>
+    <circle cx="830" cy="200" r="9" fill="#d9822b"/><text x="800" y="180">TR6</text>
+    <circle cx="990" cy="200" r="9" fill="#d9822b"/><text x="960" y="180">PRR</text>
+  </g>
+
+  <text x="30" y="280" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#5b6b82">说明：DCP 是商业决策，TR 是技术评审；两者双轨并行，不能互相替代。TR 未通过，DCP 原则上不得 Go。</text>
+  <text x="30" y="305" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#5b6b82">详细输入/输出/证据见 docs/00-overview/dcp-tr-timeline.md。</text>
+</svg>

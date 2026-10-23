@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="IPD 阶段门禁示意">
+  <rect width="1000" height="420" fill="#f7f8fb" rx="14"/>
+  <text x="30" y="38" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1c2b45">IPD 阶段门禁：目标 → 准入 → TR/DCP → 准出</text>
+
+  <g font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#1c2b45">
+    <rect x="40" y="80" width="180" height="70" rx="10" fill="#ffffff" stroke="#2f4b7c" stroke-width="2"/>
+    <text x="58" y="108" font-weight="700">1. 阶段目标</text>
+    <text x="58" y="132" fill="#5b6b82">要解决什么问题</text>
+
+    <rect x="260" y="80" width="180" height="70" rx="10" fill="#ffffff" stroke="#2f4b7c" stroke-width="2"/>
+    <text x="278" y="108" font-weight="700">2. 准入检查</text>
+    <text x="278" y="132" fill="#5b6b82">输入/资源/前置条件</text>
+
+    <rect x="480" y="80" width="220" height="70" rx="10" fill="#fff4e5" stroke="#d9822b" stroke-width="2"/>
+    <text x="498" y="108" font-weight="700">3. TR 技术评审</text>
+    <text x="498" y="132" fill="#5b6b82">技术成熟度/风险</text>
+
+    <rect x="740" y="80" width="220" height="70" rx="10" fill="#e8f1ff" stroke="#2f6fd0" stroke-width="2"/>
+    <text x="758" y="108" font-weight="700">4. DCP 商业决策</text>
+    <text x="758" y="132" fill="#5b6b82">Go / Rework / No-Go</text>
+
+    <rect x="260" y="210" width="180" height="70" rx="10" fill="#ffffff" stroke="#2f4b7c" stroke-width="2"/>
+    <text x="278" y="238" font-weight="700">5. 准出检查</text>
+    <text x="278" y="262" fill="#5b6b82">证据/问题闭环/基线</text>
+
+    <rect x="480" y="210" width="220" height="70" rx="10" fill="#ffffff" stroke="#2f4b7c" stroke-width="2"/>
+    <text x="498" y="238" font-weight="700">6. 进入下一阶段</text>
+    <text x="498" y="262" fill="#5b6b82">或 Rework / No-Go</text>
+
+    <rect x="740" y="210" width="220" height="70" rx="10" fill="#ffffff" stroke="#dbe2ee" stroke-width="2"/>
+    <text x="758" y="238" font-weight="700">7. 归档与复盘</text>
+    <text x="758" y="262" fill="#5b6b82">记录/经验/改进</text>
+  </g>
+
+  <g stroke="#7a8aa3" stroke-width="2" fill="none" marker-end="url(#a)">
+    <line x1="220" y1="115" x2="256" y2="115"/>
+    <line x1="440" y1="115" x2="476" y2="115"/>
+    <line x1="700" y1="115" x2="736" y2="115"/>
+    <line x1="850" y1="150" x2="850" y2="206"/>
+    <line x1="740" y1="245" x2="704" y2="245"/>
+    <line x1="480" y1="245" x2="444" y2="245"/>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a8aa3"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="340" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#5b6b82">红线：DCP/TR 硬性输入不得裁剪；质量/合规/安全/IP 红线一票否决；重大变更触发 CCB/IDCP。</text>
+  <text x="40" y="365" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#5b6b82">详细规则见 docs/00-overview/ipd-process-overview.md 与 document-level-guide.md。</text>
+</svg>

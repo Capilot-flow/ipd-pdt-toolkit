@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="IPD 六阶段与 DCP/TR 双轨示意">
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .stage { fill: #ffffff; stroke: #2f4b7c; stroke-width: 2; rx: 10; }
+      .stage-title { font: 700 15px "Microsoft YaHei", "PingFang SC", sans-serif; fill: #1c2b45; }
+      .stage-sub { font: 12px "Microsoft YaHei", "PingFang SC", sans-serif; fill: #5b6b82; }
+      .dcp { fill: #e8f1ff; stroke: #2f6fd0; stroke-width: 2; rx: 8; }
+      .tr { fill: #fff4e5; stroke: #d9822b; stroke-width: 2; rx: 8; }
+      .gate { font: 700 12px "Microsoft YaHei", "PingFang SC", sans-serif; fill: #1c2b45; }
+      .arrow { stroke: #7a8aa3; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .label { font: 12px "Microsoft YaHei", "PingFang SC", sans-serif; fill: #5b6b82; }
+      .legend { font: 12px "Microsoft YaHei", "PingFang SC", sans-serif; fill: #3b4a60; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a8aa3"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="520" rx="14"/>
+  <text x="40" y="42" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#1c2b45">IPD 六阶段 + DCP/TR 双轨管控</text>
+  <text x="40" y="66" class="label">商业决策（上）与技术评审（下）并行；每个阶段都必须同时通过对应门禁。</text>
+
+  <!-- stages -->
+  <g>
+    <rect class="stage" x="40" y="110" width="160" height="90"/>
+    <text x="60" y="142" class="stage-title">概念</text>
+    <text x="60" y="166" class="stage-sub">Concept</text>
+    <text x="60" y="186" class="stage-sub">机会/概念/可行性</text>
+
+    <rect class="stage" x="230" y="110" width="160" height="90"/>
+    <text x="250" y="142" class="stage-title">计划</text>
+    <text x="250" y="166" class="stage-sub">Plan</text>
+    <text x="250" y="186" class="stage-sub">需求/架构/预算</text>
+
+    <rect class="stage" x="420" y="110" width="160" height="90"/>
+    <text x="440" y="142" class="stage-title">开发</text>
+    <text x="440" y="166" class="stage-sub">Development</text>
+    <text x="440" y="186" class="stage-sub">设计/开发/集成</text>
+
+    <rect class="stage" x="610" y="110" width="160" height="90"/>
+    <text x="630" y="142" class="stage-title">验证</text>
+    <text x="630" y="166" class="stage-sub">Validation</text>
+    <text x="630" y="186" class="stage-sub">测试/认证/试产</text>
+
+    <rect class="stage" x="800" y="110" width="160" height="90"/>
+    <text x="820" y="142" class="stage-title">发布</text>
+    <text x="820" y="166" class="stage-sub">Release</text>
+    <text x="820" y="186" class="stage-sub">量产/上市/交付</text>
+
+    <rect class="stage" x="990" y="110" width="170" height="90"/>
+    <text x="1010" y="142" class="stage-title">生命周期/退市</text>
+    <text x="1010" y="166" class="stage-sub">Lifecycle</text>
+    <text x="1010" y="186" class="stage-sub">运营/优化/EOL</text>
+  </g>
+
+  <!-- arrows between stages -->
+  <line class="arrow" x1="200" y1="155" x2="226" y2="155"/>
+  <line class="arrow" x1="390" y1="155" x2="416" y2="155"/>
+  <line class="arrow" x1="580" y1="155" x2="606" y2="155"/>
+  <line class="arrow" x1="770" y1="155" x2="796" y2="155"/>
+  <line class="arrow" x1="960" y1="155" x2="986" y2="155"/>
+
+  <!-- DCP row -->
+  <text x="40" y="255" class="legend">商业轨 DCP</text>
+  <rect class="dcp" x="120" y="235" width="90" height="38"/>
+  <text x="138" y="259" class="gate">CDCP</text>
+
+  <rect class="dcp" x="310" y="235" width="90" height="38"/>
+  <text x="328" y="259" class="gate">PDCP</text>
+
+  <rect class="dcp" x="500" y="235" width="110" height="38"/>
+  <text x="512" y="259" class="gate">IDCP（变更）</text>
+
+  <rect class="dcp" x="690" y="235" width="90" height="38"/>
+  <text x="708" y="259" class="gate">LRR</text>
+
+  <rect class="dcp" x="880" y="235" width="90" height="38"/>
+  <text x="898" y="259" class="gate">ADCP</text>
+
+  <rect class="dcp" x="1010" y="235" width="110" height="38"/>
+  <text x="1022" y="259" class="gate">LDCP/EOL</text>
+
+  <!-- TR row -->
+  <text x="40" y="345" class="legend">技术轨 TR</text>
+  <rect class="tr" x="120" y="325" width="90" height="38"/>
+  <text x="130" y="349" class="gate">Pre-TR1</text>
+
+  <rect class="tr" x="310" y="325" width="90" height="38"/>
+  <text x="326" y="349" class="gate">TR1 预审</text>
+
+  <rect class="tr" x="470" y="325" width="240" height="38"/>
+  <text x="485" y="349" class="gate">TR1 → TR2 → TR3 → TR4</text>
+
+  <rect class="tr" x="690" y="325" width="90" height="38"/>
+  <text x="714" y="349" class="gate">TR5</text>
+
+  <rect class="tr" x="880" y="325" width="90" height="38"/>
+  <text x="904" y="349" class="gate">TR6</text>
+
+  <rect class="tr" x="1010" y="325" width="110" height="38"/>
+  <text x="1032" y="349" class="gate">PRR</text>
+
+  <!-- connectors vertical -->
+  <line class="arrow" x1="165" y1="200" x2="165" y2="231"/>
+  <line class="arrow" x1="355" y1="200" x2="355" y2="231"/>
+  <line class="arrow" x1="555" y1="200" x2="555" y2="231"/>
+  <line class="arrow" x1="735" y1="200" x2="735" y2="231"/>
+  <line class="arrow" x1="925" y1="200" x2="925" y2="231"/>
+  <line class="arrow" x1="1065" y1="200" x2="1065" y2="231"/>
+
+  <line class="arrow" x1="165" y1="273" x2="165" y2="321"/>
+  <line class="arrow" x1="355" y1="273" x2="355" y2="321"/>
+  <line class="arrow" x1="555" y1="273" x2="555" y2="321"/>
+  <line class="arrow" x1="735" y1="273" x2="735" y2="321"/>
+  <line class="arrow" x1="925" y1="273" x2="925" y2="321"/>
+  <line class="arrow" x1="1065" y1="273" x2="1065" y2="321"/>
+
+  <!-- footer -->
+  <rect x="40" y="405" width="1120" height="76" rx="10" fill="#ffffff" stroke="#dbe2ee"/>
+  <text x="60" y="432" class="legend">读法：先看阶段目标 → 检查准入 → 用 TR 检查表验证技术成熟度 → 用 DCP 材料做商业决策 → Go 才进入下一阶段。</text>
+  <text x="60" y="456" class="legend">红线：DCP/TR 硬性输入不得裁剪；质量/合规/安全/IP 红线一票否决；重大变更触发 CCB/IDCP。</text>
+  <text x="60" y="478" class="legend">详细规则：docs/00-overview/ipd-process-overview.md ｜ 时序：docs/00-overview/dcp-tr-timeline.md</text>
+</svg>

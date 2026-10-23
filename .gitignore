@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Generated/temporary
+*.tmp
+*.bak
+~$*
+.draft/
+*.local.md
+
+# Do not ignore generated docs (they are part of the repo)
+!docs/**/*.md
